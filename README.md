@@ -11,16 +11,11 @@ You might ask, "why can't I just ask ChatGPT itself, and cut out the middle-man?
 
 ### Class ScrapedData:
 
-
 1. Contains our webscraper
 
 ### def raw_data(url):
 
 
-1. Takes in the url given by the user
-2. Outputs the html from the url that we need
-
-### def parsed_data():
-
-1. Parses our data into relevant topics which we give to ChatGPT
-
+1. Takes in the URL given by the user
+2. Works with the html from the URL, parses through and finds the topic that the user gives
+3. Outputs the paragraph under said topic
